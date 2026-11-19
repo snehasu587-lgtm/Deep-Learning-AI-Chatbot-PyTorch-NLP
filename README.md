@@ -71,6 +71,9 @@ Future Improvements
 * Integrate a web-based user interface
 * Explore more advanced NLP techniques
 
+Chatbot Demo
+![Chatbot Demo](chatbot-demo.png)
+
 Author
 
 Sneha S Umachigi
