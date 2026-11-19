@@ -1,81 +1,75 @@
 Deep Learning AI Chatbot using PyTorch and NLP
 
-Project Overview
+Overview
 
-This project is an intelligent conversational chatbot developed using Python, PyTorch, and Natural Language Processing (NLP).
+This project is an AI chatbot developed using Python, PyTorch, and Natural Language Processing (NLP). It is designed to understand user inputs and generate appropriate responses based on predefined intents and a trained neural network model.
 
-It uses a neural network to classify user messages into predefined intents and generates appropriate responses.
+Features
+
+* Intent-based text classification
+* Natural Language Processing for text preprocessing
+* Tokenization and word processing
+* Neural network model using PyTorch
+* Training and model saving
+* Interactive chatbot conversation
+* Responses based on predefined intents
 
 Technologies Used
 
 * Python
 * PyTorch
+* Natural Language Processing (NLP)
 * NLTK
-* NumPy
-* JSON
-
-Features
-
-* Text Tokenization
-* Porter Stemming
-* Bag of Words
-* Three-Layer Neural Network
-* Intent Classification
-* Softmax Probability Distribution
-* Confidence Filtering
-* Interactive Chat Interface
-* Unknown Message Detection
 
 Project Structure
 
-AI-Chatbot/
-├── intents.json
-├── nltk_utils.py
-├── model.py
-├── train.py
-├── chat.py
-├── requirements.txt
-└── data.pth
+* chat.py – Runs the chatbot and handles user interaction.
+* train.py – Trains the neural network model.
+* model.py – Defines the neural network architecture.
+* nltk_utils.py – Contains NLP utilities such as tokenization and text processing.
+* intents.json – Stores intents, patterns, and responses.
+* data.pth – Saved trained model.
+* requirements.txt – Contains project dependencies.
 
-Installation
+How to Run
 
-Install the required dependencies:
+1. Clone the repository
+
+git clone https://github.com/snehasu587-lgtm/Deep-Learning-AI-Chatbot-PyTorch-NLP.git
+
+2. Navigate to the project folder
+
+cd Deep-Learning-AI-Chatbot-PyTorch-NLP
+
+3. Install dependencies
 
 pip install -r requirements.txt
 
-Training the Model
+4. Train the model
 
 python train.py
 
-Run the Chatbot
+5. Start the chatbot
 
 python chat.py
 
-Sample Conversation
+Sample Interaction
 
-User: Hi
+AI Chatbot is ready!
+Type 'quit' to exit.
+You: Hi
+Bot: Hey! What can I do for you?
+You: Thank you
+Bot: Happy to help!
+You: bye
+Bot: Goodbye! Have a nice day!
 
-Bot: Hi there! Nice to meet you.
+Future Improvements
 
-User: What is your name?
-
-Bot: I am your AI chatbot assistant.
-
-User: How is the weather today?
-
-Bot: Sorry, I don’t understand.
-
-Learning Outcomes
-
-* Understanding NLP fundamentals
-* Implementing neural networks using PyTorch
-* Training an intent classification model
-* Working with text preprocessing
-* Building an interactive AI chatbot
-
-Project Type
-
-Artificial Intelligence – Trainlyze Task 3
+* Add more intents and training patterns
+* Improve chatbot accuracy
+* Integrate a web-based user interface
+* Explore more advanced NLP techniques
 
 Author
 
